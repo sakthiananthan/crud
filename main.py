@@ -57,5 +57,5 @@ def add_new_json(input):
     return data_json['Task_list']
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0")
 
